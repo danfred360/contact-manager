@@ -4,12 +4,12 @@
   "private": true,
   "homepage": "https://danfred360.github.io/contact-manager",
   "dependencies": {
+    "axios": "^0.18.0",
     "bootstrap": "^4.3.1",
     "gh-pages": "^2.0.1",
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
-    "react-scripts": "2.1.5",
-    "uuid": "^3.3.2"
+    "react-scripts": "2.1.5"
   },
   "scripts": {
     "deploy": "npm run build&&gh-pages -d build",
